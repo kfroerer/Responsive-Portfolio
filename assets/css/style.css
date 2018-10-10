@@ -1,0 +1,304 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-image: url("../images/cloth_alike_@2X.png");
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+   
+}
+
+header {
+    border: 1px, solid, #dddddd; 
+    background-color: #ffffff;
+    margin: auto;
+    height: 70px;
+    width: 100%;
+
+}
+
+
+.heading-info {
+    height: 43%;
+    background-color: #4aaaa5;  
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    padding: 20;
+    float: left;
+    text-align: left; 
+    margin-left: 12%;
+    
+}
+
+.content {
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
+    width: 73%;
+    margin: auto;
+    padding: 1.5%;
+    background-color: #ffffff;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    flex: 1 0 auto;
+}
+
+.project-link {
+    margin-top:2%;
+    margin-bottom: 2%;
+    position: relative;
+    
+}
+.Project-Label {
+    position: absolute;
+    bottom: 10px;
+    background-color: teal;
+    height: 20%;
+    width: 200px;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    
+}
+ 
+.project2 {
+    left: 25%;
+    bottom: 220;
+}
+
+.project3 {
+    bottom: 210; 
+}
+
+.project4 {
+    bottom: 430;
+    left: 240;
+}
+
+.project5 {
+    bottom: 420;
+}
+.links {
+    float: right;
+    padding: 30px;
+    margin-right: 150px;
+
+}
+ .about {
+    
+     border-right: gray 1px solid;
+     margin-right: 23px;
+     float: left;
+     text-align: left;
+     padding-right: 20px;
+
+    
+ }
+
+ .portfolio {
+     border-right: gray 1px solid;
+     margin-right: 15px;
+     text-align: center;
+     padding-right: 20px;
+ }
+h2 {
+    color:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-size: 24px;
+
+}
+
+.title {
+    margin-bottom: 1%;
+    margin-top: 2%;
+}   
+
+input {
+    height: 5%;
+
+}
+
+a:link{ 
+    color: #777777
+}
+
+a:visited{
+    color: lightcoral;
+}
+
+a:hover{
+    color: lightseagreen;
+}
+
+a:active{
+    color: blue;
+}
+
+#profile-image {
+    float: left;
+    width: 20%;
+    padding-top: 10;
+    padding-right: 10;
+}
+
+.bio-info {
+    float: right;
+    width: 78%;
+    margin-left: 0;
+}
+
+
+.footer {
+    background: #666666;
+    color: white;
+    border-top: 8px solid #4aaaa5;    
+    text-align: center;
+    flex-shrink: 0;
+    padding: 2%;
+    height: 2%;   
+}
+
+button {
+    background-color: teal;
+    color: #eeeeee;
+    height: 32px;
+    width: 88px;
+    font-family: arial;
+    font-size: 18px;
+
+}
+img {
+    height: 200;
+    width: 200;
+}
+
+@media only screen and (max-width: 640px) {
+    header {
+        width: 50%;
+        position: static;
+    }
+    input {
+        width: 360;
+    }
+    textarea {
+        width: 360;
+    }
+    .about {
+        margin-right: 13px;
+        padding: 18 px;
+        margin-left: 0;
+    }
+    .portfolio {
+        margin-right: 13px;
+        padding-right: 18 px;
+    }
+    .links {
+        float: left;
+        margin-right: 0;
+        width: 100%;
+    }
+    .project-link {
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        
+    }
+
+    #profile-image {
+        float: left;
+        width: 50%;
+        padding-top: 10;
+        padding-right: 10;
+    }
+    
+
+    h2 {
+        margin-top: 50px;
+
+
+    }
+
+
+    
+}
+
+
+@media only screen and (min-width: 768px) {
+    input {
+        width: 550;
+    }
+    textarea {
+        width: 550;
+    }
+
+    #profile-image {
+        height: 175px;
+        width: 30%;
+    }
+    
+    .project2 {
+        left: 230;
+        bottom: 211;
+    }
+    
+    .project3 {
+        bottom: 200; 
+    }
+    
+    .project4 {
+        bottom: 411;
+        left: 230;
+    }
+    
+    .project5 {
+        bottom: 396;
+    }
+    
+        
+
+}
+
+
+
+
+@media only screen and (min-width: 980px) {
+    input {
+        width: 900;
+    }
+    textarea {
+        width: 900  ;
+    }
+
+    .project2 {
+        left: 27%;
+        bottom: 216;
+    }
+    
+    .project3 {
+        bottom: 200; 
+    }
+    
+    .project4 {
+        bottom: 420;
+        left: 27%;
+    }
+    
+    .project5 {
+        bottom: 396;
+    }
+    
+    #profile-image {
+        float: left;
+        height: 280px;
+        padding-top: 10;
+        padding-right: 10;
+    }
+        
+}
