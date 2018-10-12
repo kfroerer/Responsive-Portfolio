@@ -227,10 +227,13 @@ img {
 
     h2 {
         margin-top: 50px;
-
-
     }
 
+    .heading-info {
+        margin-left: 21%;
+        height: 40%;
+
+    }
 
     
 }
@@ -267,8 +270,15 @@ img {
         bottom: 396;
     }
     
-        
-
+    .heading-info {
+        height: 69%;
+        margin-top: 4%;
+        margin-right: 72px;
+    }    
+    .links {
+        margin-top: 14px;
+        margin-right: 72px;
+    }
 }
 
 
@@ -302,9 +312,17 @@ img {
     
     #profile-image {
         float: left;
-        height: 280px;
+        height: 236px;
         padding-top: 10;
         padding-right: 10;
     }
         
+    .heading-info {
+        height: 65%;
+    }
+
+    .links {
+        margin-top: 2%;
+        margin-right: 100px;
+    }
 }
